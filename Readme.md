@@ -5,7 +5,7 @@ Last modified: 2016.4.27 Kincaid
 #Usage: 
 	python food.py
 
-#Modfy list:
+#Modify list:
 	Adding or deleting items in the text file "restaurant":
 	<first restaurant>
 	<second restaurant>
