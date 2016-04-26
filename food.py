@@ -1,20 +1,18 @@
 import random
-NUM_RESTAURANT = { 
-1:"feng'zheng", 
-2:"mei'wei", 
-3:"yi'fan", 
-4:"wang'pin", 
-5:"wang'ji", 
-#6:"yi'ji", 
-6:"yue'nan", 
-7:"tai'ma'ji", 
-8:"zheng'guang'xiang", 
-9:"ya'xiang'bao", 
-10:"liu'mei",
-11:"show'it"
+InputDataName = "restaurant"
 
-}
+inputdata = open(InputDataName,"r")
+result = []
 
-num = random.randint(1, len(NUM_RESTAURANT))
+for line in inputdata:
+	line = line.strip("\n")
+	if not len(line):
+		continue
+	#print line
+	result.append(line)
+#print result
 
-print NUM_RESTAURANT[num]
+inputdata.close()
+
+num = random.randint(1, len(result))
+print result[num]

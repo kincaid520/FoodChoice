@@ -1,2 +1,1 @@
-rm ~/food
-rm -rf FoodChoice
+rm -rf ../FoodChoice
