@@ -22,7 +22,7 @@ Built by Kincaid, 2016, Jan, 13th
 #Usage: 
 	python food.py
 
-#Modfy list:
+#Modify list:
 	Adding or deleting items in the dictionary:
 	1:....,
 	2:....,
