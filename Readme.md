@@ -1,5 +1,5 @@
 Last modified: 2016.4.27 Kincaid
-#Change log:
+#Change:
 	Move name from dict inside to text file outside.
 	modify the text file to add/remove restaurant.
 #Usage: 
@@ -11,6 +11,7 @@ Last modified: 2016.4.27 Kincaid
 	<second restaurant>
 	<third restaurant>
 	<fourth restaurant>
+	...
 	
 #Uninstall: 
 	sh uninstall
@@ -18,6 +19,7 @@ Last modified: 2016.4.27 Kincaid
 
 
 -----Old version below-----
+
 Built by Kincaid, 2016, Jan, 13th
 #Usage: 
 	python food.py
