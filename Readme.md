@@ -3,7 +3,7 @@ Last modified: 2016.1.13 Kincaid
 #Usage: 
 	python food.py
 
-#Modfy list:
+#Modify list:
 	Adding or deleting items in the dictionary:
 	1:....,
 	2:....,
