@@ -1,11 +1,16 @@
-Last modified: 2016.4.27 Kincaid
-#Change:
+#Modified: 2016.5.6 Kincaid
+##Change:
+	Using utf-8, adding Chinese words now.
+
+-----
+#Modified: 2016.4.27 Kincaid
+##Change:
 	Move name from dict inside to text file outside.
 	modify the text file to add/remove restaurant.
-#Usage: 
-	python food.py
+##Usage: 
+	`python food.py`
 
-#Modify list:
+##Modify list:
 	Adding or deleting items in the text file "restaurant":
 	<first restaurant>
 	<second restaurant>
@@ -13,26 +18,24 @@ Last modified: 2016.4.27 Kincaid
 	<fourth restaurant>
 	...
 	
-#Uninstall: 
-	sh uninstall
-	#never test before
+##Uninstall: 
+	`sh uninstall` >never test before
 
 
------Old version below-----
-
-Built by Kincaid, 2016, Jan, 13th
-#Usage: 
+-----
+#Built by Kincaid, 2016, Jan, 13th
+##Usage: 
 	python food.py
 
-#Modify list:
+##Modify list:
 	Adding or deleting items in the dictionary:
 	1:....,
 	2:....,
 	3:....,
 	4:....,
 	
-	#For more, google "python dict"
+	For more, google "python dict"
 
-#Uninstall: 
+##Uninstall: 
 	sh uninstall
 	#never test before

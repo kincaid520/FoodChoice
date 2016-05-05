@@ -1,3 +1,4 @@
+#coding=utf-8
 import random
 InputDataName = "restaurant"
 
@@ -15,4 +16,4 @@ for line in inputdata:
 inputdata.close()
 
 num = random.randint(1, len(result))
-print result[num]
+print result[num-1]
